@@ -2,8 +2,8 @@
   "MockDB": {
     "host": "",
     "port": 0,
-    "url": "",
-    "database": "${DATABASE_URL}",
+    "url": "${DATABASE_URL}",
+    "database": "",
     "password": "",
     "name": "MockDB",
     "user": "",
