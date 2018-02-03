@@ -1,0 +1,12 @@
+{
+  "MockDB": {
+    "host": "",
+    "port": 0,
+    "url": "",
+    "database": "${DATABASE_URL}",
+    "password": "",
+    "name": "MockDB",
+    "user": "",
+    "connector": "postgresql"
+  }
+}
