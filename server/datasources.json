@@ -1,0 +1,8 @@
+{
+  "MockDB": {
+    "name": "MockDB",
+    "localStorage": "MockDB",
+    "file": "D:\\projects\\bedheads\\bedData",
+    "connector": "memory"
+  }
+}

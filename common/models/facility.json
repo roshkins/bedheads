@@ -1,0 +1,33 @@
+{
+  "name": "facility",
+  "plural": "facilities",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "bedCount": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "bedcountOccupied": {
+      "type": "number"
+    },
+    "address": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
