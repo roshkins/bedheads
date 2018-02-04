@@ -8,5 +8,5 @@ module.exports = function(app) {
    * http://docs.strongloop.com/display/public/LB/Working+with+LoopBack+objects
    * for more info.
    */
-  // app.dataSources["MockDB"].automigrate();
+  app.dataSources["MockDB"].automigrate();
 };

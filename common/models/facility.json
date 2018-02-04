@@ -7,22 +7,22 @@
     "validateUpsert": true
   },
   "properties": {
-    "bedCount": {
-      "type": "number"
-    },
     "name": {
       "type": "string"
     },
     "phoneNumber": {
       "type": "string"
     },
-    "bedcountOccupied": {
+    "bedsAvailable": {
       "type": "number"
     },
     "address": {
       "type": "string"
     },
     "zip": {
+      "type": "string"
+    },
+    "pin": {
       "type": "string"
     }
   },
